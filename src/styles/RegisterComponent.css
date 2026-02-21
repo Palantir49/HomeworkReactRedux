@@ -1,0 +1,46 @@
+.register-container {
+  display: grid;
+  place-items: center;
+   min-height: 100vh;
+
+}
+
+
+.register-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+}
+
+.register-component-input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-component-button {
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0 auto 15px auto; /* auto слева и справа для центрирования */
+    font-size: 14px;
+    text-align: center; /* Текст по центру */
+    width: fit-content; /* Ширина по содержимому */
+    max-width: 300px; /* Но не больше 300px */
+    box-sizing: border-box;
+}
